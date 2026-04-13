@@ -120,4 +120,13 @@ const getPesquisaDePalavras = function(numeroUsuario,nomeContato,palavraChave){
 
     return listaMensagens
 }
-console.log(getPesquisaDePalavras(11987876567, "Ana Maria", "a"))
+
+module.exports = {
+    getDadosDaConta,
+    getListaDeContatos,
+    getDadosDaConta,
+    getDadosDeCadaUsuario,
+    getListarMensagens,
+    getUsuarioEContato,
+    getPesquisaDePalavras
+}
